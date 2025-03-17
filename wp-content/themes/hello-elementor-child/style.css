@@ -1,0 +1,299 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 3.3.0.1741982082
+Updated: 2025-03-14 19:54:42
+
+*/
+#main-nav .hfe-nav-menu li a {
+    border: 1px solid var(--e-global-color-1c91922);
+}
+
+#main-nav .hfe-nav-menu li a:hover,
+#main-nav .hfe-nav-menu li.current_page_item a {
+    border-radius: 10px;
+    border: 1px solid var(--e-global-color-c77a577);
+}
+
+#contact-nav .hfe-nav-menu li a { 
+    border-radius: 10px;
+    border: 1px solid var(--e-global-color-c77a577);
+}
+
+/* Properties */
+.es-listing h1, .es-listing h2, .es-listing h3, .es-listing h4, .es-listing h5, .es-listing h6, .es-search h2, .es-search h3, .es-search h4, .es-search h5, .es-search h6, .heading-font, .es-price, .es-property-section .es-property-section__title, .es-entity-section__title, .widget .es-widget-wrap .es-widget__title, .es-widget__title, .es-magnific-popup h1, .es-magnific-popup h2, .es-magnific-popup h3, .es-magnific-popup h4, .es-magnific-popup h5, .es-magnific-popup h6, .es-entity .es-entity__title, .es-review-form h3.es-review-form__title,
+.es-media, .es-file, .es-listing, .es-agent-single, .es-agency-single, .es-widget-wrap *:not(.es-icon):not(.fa):not(.heading-font), .es-select2__dropdown, .es-single, .es-btn, button.es-btn[disabled]:hover .mfp-wrap.es-property-magnific, .es-field input, .es-field select, .es-field textarea, .es-magnific-popup:not(.es-icon), .es-magnific-popup:not(.fa), .es-listings-filter, .es-search, .content-font, .es-profile, .es-property-magnific .mfp-counter, .es-property-magnific .mfp-title, .xdsoft_datetimepicker, .es-component, .es-auth, .es-entity, .es-entities--grid .es-entity .es-entity__title, .es-review-form, .es-review-form .es-field__label, .es-field .es-field__strlen, .es-entities-list {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+}
+
+.es-properties .es-listings-filter .es-title {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+    color: var(--e-global-color-text);
+}
+
+.es-listings .properties,
+.es-listings .type-properties {
+    padding: 40px;
+    border: 1px solid var(--e-global-color-c77a577);
+    border-radius: 12px;
+}
+
+.es-listing {
+    background: none;
+}
+
+
+.es-listing .es-listing__image img {
+    border-radius: 12px;
+}
+
+.es-listings .type-properties .es-listing .es-listing__content {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.es-listings .type-properties .es-listing__content .es-listing__title a,
+.es-listings .type-properties .es-listing__content .es-price {
+    color: var(--e-global-color-09d8c3c);
+    font-size: 24px;
+    font-weight: 600; 
+}
+
+.es-listings .type-properties .es-listing__content .es-text-price {
+    display: block;
+    line-height: 1 !important;
+}
+
+.es-listings .type-properties .es-listing__content .es-text-price,
+.es-listings .es-address,
+.es-pagination .es-navigation {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+    color: var(--e-global-color-text);
+    font-weight: var(--e-global-typography-text-font-weight);
+}
+
+.es-listings ul.es-listing__meta li {
+    background-color: var(--e-global-color-1c91922);
+    color: var(--e-global-color-09d8c3c);
+    font-weight: 500;
+    display: inline-block;
+    margin: 30px 10px 30px 0 !important;
+    padding: 9.5px 14px !important;
+    font-size: 18px;
+    border-radius: 28px;
+    border: 1px solid var(--e-global-color-c77a577);
+}
+
+.es-listings .es-custom-btn-link {
+    background-color: var(--e-global-color-867f8bb) !important;
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    line-height: var(--e-global-typography-text-line-height);
+    border-radius: 10px 10px 10px 10px;
+    padding: 18px 24px 18px 24px;
+    color: var(--e-global-color-09d8c3c) !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.es-listings .es-custom-btn-link:hover {
+    transform: scale(.9);
+}
+
+.es-pagination {
+    border-top: 1px solid var(--e-global-color-c77a577);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    padding: 20px 0;
+}
+
+.es-navigation {
+    order: -1; /* Moves the navigation text to the left */
+}
+
+.es-pagination .page-numbers li .page-numbers, 
+.es-pagination ul li .page-numbers, 
+.es-pagination ul.page-numbers li .page-numbers {
+    border: 1px solid var(--e-global-color-c77a577);
+    border-radius: 20px;
+    color: var(--e-global-color-09d8c3c);
+    background-color: var(--e-global-color-1c91922);
+}
+
+.es-pagination .page-numbers li .page-numbers.current, 
+.es-pagination ul li .page-numbers.current, 
+.es-pagination ul.page-numbers li .page-numbers.current {
+    color: var(--e-global-color-c77a577);
+}
+
+.es-pagination ul li a.page-numbers:hover {
+    border: 1px solid var(--e-global-color-c77a577);
+    color: var(--e-global-color-c77a577);
+}
+
+.es-listings-filter .es-total {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    color: var(--e-global-color-09d8c3c);
+}
+
+.es-powered.content-font {
+    display: none;
+}
+
+/* Testimonials */
+.wpmslider-content .wpmtst-testimonial .testimonial-inner {
+    padding: 50px !important;
+    border: 1px solid var(--e-global-color-c77a577);
+    border-radius: 12px;
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    color: var(--e-global-color-09d8c3c);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-content {
+    margin: 0 0 40px 0 !important;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-image img {
+    border-radius: 50%;
+    max-width: 60px;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-content:before,
+.strong-view.wpmtst-modern .wpmtst-testimonial-content:after {
+    display: none;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-heading {
+    color: var(--e-global-color-09d8c3c);
+    font-size: 24px;
+    font-weight: 600 !important;    
+    font-style: normal;
+    text-align: left;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-content p:first-of-type {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+    color: var(--e-global-color-09d8c3c);
+    font-weight: 500 !important;    
+    font-style: normal;
+    text-align: left;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-image {
+    text-align: left;
+}
+
+.strong-view.wpmtst-modern .stars .strong-rating-wrapper .star svg {
+    padding: 10px;
+    width: 40px;
+    background-color: var(--e-global-color-1c91922);
+    border: 1px solid var(--e-global-color-c77a577);
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.strong-view.wpmtst-modern .stars .wpmtst-testimonial-field {
+    margin-bottom: 40px;
+    clear: both;
+    text-align: left;
+}
+
+.stars .strong-rating-wrapper .star svg path {
+    fill: #FFE500;
+}
+
+.strong-view.wpmtst-modern .stars .testimonial-field:not(:first-of-type) {
+    display: none;
+}
+
+.strong-view.wpmtst-modern .client-info .testimonial-field:first-of-type {
+    display: none;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-field {
+    text-align: left !important;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-image {
+    display: block !important;
+}
+
+.strong-view.nav-position-outside .wpmslider-controls {
+    text-align: right !important;
+}
+
+/* FAQs */
+.faq-slider .slick-slide {
+    padding: 50px !important;
+    border: 1px solid var(--e-global-color-c77a577);
+    border-radius: 12px;
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    color: var(--e-global-color-09d8c3c);
+    margin: 20px;
+}
+
+.faq-item {
+    display: flex;
+    align-items: stretch;
+}
+
+.faq-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.faq-slider .slick-slide .faq-question {
+    color: var(--e-global-color-09d8c3c);
+    font-size: 24px;
+    font-weight: 600 !important;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.faq-slider .slick-slide .faq-excerpt-answer {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+    color: var(--e-global-color-text);
+    font-weight: var(--e-global-typography-text-font-weight);
+    text-align: left;
+}
+
+.faq-slider .slick-slide .mt-auto .learn-more {
+    background-color: var( --e-global-color-1c91922 );
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    line-height: var(--e-global-typography-text-line-height);
+    border-radius: 10px 10px 10px 10px;
+    padding: 18px 24px 18px 24px;
+    color: var(--e-global-color-09d8c3c) !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.faq-slider .slick-slide .learn-more:hover {
+    transform: scale(.9);
+}
